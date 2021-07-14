@@ -15,7 +15,7 @@ test(false)
 .then( function(result){
     console.log(result);
 })
-.catch( function(err){
+.catch( function(err){//테스트
     console.log(err)
 })*/
 
