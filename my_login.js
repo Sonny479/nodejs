@@ -15,7 +15,7 @@ const con = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     database: 'sss',
-    password:'Elzmf@1234'
+    password:'elzmf@12'
    
   });
 con.connect();
@@ -74,6 +74,7 @@ app.get('/login',(req,res)=>{
         }
         if(bool){
             res.send(read2);
+
         }else{
             res.send("실패");
         }
