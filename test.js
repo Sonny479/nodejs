@@ -6,7 +6,7 @@ const con = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'sss',
-  password:'Elzmf@1234'
+  password:'elzmf@12'
  
 });
 let coin =0;

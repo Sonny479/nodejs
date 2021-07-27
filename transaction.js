@@ -12,7 +12,7 @@ const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
     database: 'sss',
-    password:'Elzmf@1234'
+    password:'elzmf@12'
     
 
     
@@ -35,8 +35,8 @@ const test = async ()=>{
                // var drop_b="DROP TABLE B";
                // var create_a="CREATE TABLE A(a_id VARCHAR(30) not null primary key);"
                 //var create_b="CREATE TABLE B(b_id VARCHAR(30) not null primary key);"
-                var i=0;
-                var con=true;
+                var i = 0;
+                var con = true;
                 connection.beginTransaction();
                 
                 const rows_a = await connection.query(insertS1,i);
